@@ -27,7 +27,6 @@ const App = () => {
   },[password])
 
 
-
   useEffect(passwordGenerator, [
     length,
     numberAllowed,
